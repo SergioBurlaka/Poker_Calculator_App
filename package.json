@@ -1,0 +1,26 @@
+{
+  "name": "poker_calcilator",
+  "version": "1.0.0",
+  "description": "application",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "webpack-dev-server --content-base app",
+    "build": "webpack"
+  },
+  "author": "sergio",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.19.1"
+  }
+}
